@@ -1,9 +1,10 @@
 const inquirer = require('inquirer');
-var fs = require('fs');
+const fs = require('fs');
 const moment = require('moment'); //require
 var year = moment().format('YYYY');
 
 const path = require('path');
+
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
@@ -15,49 +16,51 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+  if (license != null) {
+    if (license == "GNU_AGPLv3") {
+      console.log("yay");
+      return "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)";
+    }
+  } 
+
 
 }
 
 // Returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  
 
+  if (license != 'null') {
+    var liscense_section_test = `## License\n\nLicensed under: `
+  }
+
+  if (license == "GNU_AGPLv3") {
+    liscense_section_test += "GNU Affero General Public License v3.0"
+    return liscense_section_test;
+  } else if (license == "GNU_GPLv3") {
+    liscense_section_test += "GNU General Public License v3.0"
+    return liscense_section_test;
+  } else if (license == "GNU_LGPLv3") {
+    liscense_section_test += "GNU Lesser General Public License v3.0"
+    return liscense_section_test;
+  } else if (license == "Mozilla_Public_License_2.0") {
+    liscense_section_test += "Mozilla Public License 2.0"
+    return liscense_section_test;
+  } else if (license == "Apache_License_2.0") {
+    liscense_section_test += "Apache License 2.0"
+    return liscense_section_test;
+  } else if (license == "MIT_License") {
+    liscense_section_test += "MIT License"
+    return liscense_section_test;
+  } else if (license == "Boost_Software_License_1.0") {
+    liscense_section_test += "Boost Software License 1.0"
+    return liscense_section_test;
+  } else if (license == "The_Unlicense") {
+    liscense_section_test += "The Unlicense"
+    return liscense_section_test;
+  }
+  return "";
 }
-
-
-
-
-
-
-
-
-
-  // if (name != "") {
-  //   return `\n\n#License\n\nMIT License
-
-  //   Copyright (c) ` + year + ` ` + name + `
-    
-  //   Permission is hereby granted, free of charge, to any person obtaining a copy
-  //   of this software and associated documentation files (the "Software"), to deal
-  //   in the Software without restriction, including without limitation the rights
-  //   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  //   copies of the Software, and to permit persons to whom the Software is
-  //   furnished to do so, subject to the following conditions:
-    
-  //   The above copyright notice and this permission notice shall be included in all
-  //   copies or substantial portions of the Software.
-    
-  //   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  //   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  //   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  //   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  //   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  //   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  //   SOFTWARE.`
-  // } else {
-  //   return "";
-  // }
 
 
 
@@ -114,10 +117,11 @@ function generateMarkdown(data) {
     markdown_string += `\n\nThird-Party Assets: ${data.third_party_assets}`
   }
   if (data.tutorials != "") {
-    markdown_string += `\n\nTutortials: ${data.tutorials}`
+    markdown_string += `\n\nTutorials: ${data.tutorials}`
   }
 
-  markdown_string += renderLicenseSection(data.full_name);
+  markdown_string += "\n\n" + renderLicenseSection(data.license);
+  markdown_string += "\n\n" + renderLicenseLink(data.license);
 
   return markdown_string;
 

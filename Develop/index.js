@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
@@ -73,9 +74,17 @@ const questions = [
     ,
     {
         type: 'list',
-        message: "If you want an MIT open source license, enter your full name: \n",
-        name: 'full_name',
-        choices: []
+        message: "Choose a license from the list:\n",
+        name: 'license',
+        choices: [  "GNU_AGPLv3",
+                    "GNU_GPLv3",
+                    "GNU_LGPLv3",
+                    "Mozilla_Public_License_2.0",
+                    "Apache_License_2.0",
+                    "MIT_License",
+                    "Boost_Software_License_1.0",
+                    "The_Unlicense"
+        ]
     }
     ];
 
