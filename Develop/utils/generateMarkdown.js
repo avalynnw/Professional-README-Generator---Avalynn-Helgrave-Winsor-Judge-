@@ -169,7 +169,7 @@ function generateMarkdown(data) {
   markdown_string += "\n\n## Questions";
 
   // Add github username to README
-  markdown_string += "\n\ngithub.com/" + data.github_username;
+  markdown_string += "\n\nhttps://github.com/" + data.github_username;
 
   // Add email address
   markdown_string += "\n\n Contact me: " + data.email;

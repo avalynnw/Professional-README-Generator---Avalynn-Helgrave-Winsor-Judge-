@@ -30,6 +30,6 @@ https://www.gnu.org/licenses/agpl-3.0
 
 ## Questions
 
-github.com/avalynnw
+https://github.com/avalynnw
 
  Contact me: avalynnjudge@gmail.com
