@@ -33,6 +33,8 @@ Run the program from the "Develop" directory using
 
  and fill out the prompts to generate the README file one directory up.
 
+![README Generator Walkthrough.gif](./Develop/assets/images/README%20Generator%20Walkthrough.gif)
+
 ![console_screenshot.png](./Develop/assets/images/console_screenshot.png)
 
 ## Contributing
@@ -59,4 +61,4 @@ No tests have been written for this application at this time.
 
 https://github.com/avalynnw
 
- Contact me at: avalynnhelgrave@gmail.com
+ Contact me at: avalynnjudge@gmail.com

@@ -126,7 +126,7 @@ function generateMarkdown(data) {
   // For each png or jpg file in the images folder, this displays them in the markdown file.
   var files = fs.readdirSync('./assets/images/');
   files.forEach (file => {
-    if ((path.extname(file) == ".png") || (path.extname(file) == ".jpg")) {
+    if ((path.extname(file) == ".png") || (path.extname(file) == ".jpg") || (path.extname(file) == ".gif")) {
 
       var formatted_name = file.replace(/ /g, '%20');
       markdown_string +=   "\n![" + file + "](./Develop/assets/images/"+ formatted_name +")\n";
