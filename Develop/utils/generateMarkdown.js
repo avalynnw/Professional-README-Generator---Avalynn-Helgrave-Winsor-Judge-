@@ -137,7 +137,9 @@ function generateMarkdown(data) {
   var files = fs.readdirSync('./assets/images/');
   files.forEach (file => {
     if ((path.extname(file) == ".png") || (path.extname(file) == ".jpg")) {
-      markdown_string +=   "\n![" + file + "](./assets/images/"+ file +")\n";
+
+      var formatted_name = file.replace(/ /g, '_');
+      markdown_string +=   "\n![" + file + "](./assets/images/"+ formatted_name +")\n";
     }
   });
 
