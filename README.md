@@ -33,7 +33,7 @@ Run the program from the "Develop" directory using
 
  and fill out the prompts to generate the README file one directory up.
 
-![screenshot.png](./Develop/assets/images/screenshot.png)
+![console_screenshot.png](./Develop/assets/images/console_screenshot.png)
 
 ## Contributing
 
