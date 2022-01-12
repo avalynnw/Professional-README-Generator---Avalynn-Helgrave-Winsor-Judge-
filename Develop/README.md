@@ -21,7 +21,7 @@ Clone this project your personal computer using the command "git clone git@githu
 
 Run the program using "node index.js" and fill out the prompts to generate the README file.
 
-![Screen Shot 2022-01-12 at 8.41.17 AM.png](assets/images/Screen Shot 2022-01-12 at 8.41.17 AM.png)
+![Screen Shot 2022-01-12 at 8.41.17 AM.png](./assets/images/Screen Shot 2022-01-12 at 8.41.17 AM.png)
 
 ## Contributing
 
