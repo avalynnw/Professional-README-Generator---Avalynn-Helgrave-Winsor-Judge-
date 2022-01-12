@@ -15,13 +15,21 @@ This program is desinged to quickly and easily generate quality README files for
 
 ## Installation
 
-Clone this project your personal computer using the command "git clone git@github.com:avalynnw/README-Generator.git". Then, use "npm install (package-name)" to install inquirer, fs, and path in the root directory where the file was cloned to.".
+Clone this project your personal computer using the command: 
+
+git clone git@github.com:avalynnw/README-Generator.git 
+
+Then, use 
+
+npm install (package-name)
+
+ to install inquirer, fs, and path in the root directory where the file was cloned to.".
 
 ## Usage
 
 Run the program using "node index.js" and fill out the prompts to generate the README file.
 
-![Screen Shot 2022-01-12 at 8.41.17 AM.png](./assets/images/Screen Shot 2022-01-12 at 8.41.17 AM.png)
+![ss.png](./assets/images/ss.png)
 
 ## Contributing
 
@@ -33,11 +41,11 @@ Tutorials: README guide: https://coding-boot-camp.github.io/full-stack/github/pr
 
 ## License
 
-#### MIT License
+#### Apache License 2.0
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-https://opensource.org/licenses/MIT
+https://opensource.org/licenses/Apache-2.0
 
 ## Tests
 
