@@ -1,11 +1,11 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-
-
 const path = require('path');
 
 
-// TODO: Create a function that returns a license badge based on which license is passed in
+
+
+// Function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license != null) {
@@ -33,7 +33,7 @@ function renderLicenseBadge(license) {
 
 }
 
-// TODO: Create a function that returns the license link
+// Function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license != null) {
@@ -91,8 +91,9 @@ function renderLicenseSection(license) {
   } else if (license == "The_Unlicense") {
     liscense_section_test += "#### The Unlicense"
     return liscense_section_test;
+  } else {
+    return "";
   }
-  return "";
 }
 
 
@@ -112,8 +113,6 @@ function generateMarkdown(data) {
   // Add title
   let markdown_string = `# ${data.title}`
 
-
-
   // Add description
   markdown_string += `\n\n## Description\n\n${data.description}`
 
@@ -132,6 +131,7 @@ function generateMarkdown(data) {
   // Add Usage instructions
   markdown_string += `\n\n## Usage\n\n${data.usage_instructions}\n`
   
+  // For each png or jpg file in the images folder, this displays them in the markdown file.
   var files = fs.readdirSync('./assets/images/');
   files.forEach (file => {
     if ((path.extname(file) == ".png") || (path.extname(file) == ".jpg")) {
@@ -141,7 +141,7 @@ function generateMarkdown(data) {
 
   // Add Credits
   if (((data.collaborators) && (data.third_party_assets) && (data.tutorials)) != "") {
-    markdown_string += "\n## Credits"
+    markdown_string += "\n## Contributing"
   }
 
   // Add collaborators, third-party assets and tutorials if they are provided
@@ -172,7 +172,9 @@ function generateMarkdown(data) {
   markdown_string += "\n\nhttps://github.com/" + data.github_username;
 
   // Add email address
-  markdown_string += "\n\n Contact me: " + data.email;
+  markdown_string += "\n\n Contact me at: " + data.email;
+
+  // Return completed markdown string
   return markdown_string;
 
 }
