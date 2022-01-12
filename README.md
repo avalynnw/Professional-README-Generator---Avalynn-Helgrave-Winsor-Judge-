@@ -27,7 +27,11 @@ Then, use:
 
 ## Usage
 
-Run the program from the "Develop" folder using "node index.js" and fill out the prompts to generate the README file one directory up.
+Run the program from the "Develop" folder using 
+
+	node index.js
+
+ and fill out the prompts to generate the README file one directory up.
 
 ![screenshot.png](./Develop/assets/images/screenshot.png)
 

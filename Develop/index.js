@@ -61,7 +61,7 @@ const questions = [
         type: 'input',
         message: "Provide instructions and examples for use. To add a screenshot, add all images to the folder ./assets/images/ in .png or .jpg format and they will be added to the README file automatically. \n",
         name: 'usage_instructions',
-        default: 'Run the program from the "Develop" folder using "node index.js" and fill out the prompts to generate the README file one directory up.'
+        default: 'Run the program from the "Develop" folder using \n\n\tnode index.js\n\n and fill out the prompts to generate the README file one directory up.'
     }
     ,
     {
