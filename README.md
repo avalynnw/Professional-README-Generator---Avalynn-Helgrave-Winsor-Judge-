@@ -59,4 +59,4 @@ No tests have been written for this application at this time.
 
 https://github.com/avalynnw
 
- Contact me at: avalynnjudge@gmail.com
+ Contact me at: avalynnhelgrave@gmail.com
