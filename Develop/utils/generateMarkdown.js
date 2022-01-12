@@ -139,7 +139,7 @@ function generateMarkdown(data) {
     if ((path.extname(file) == ".png") || (path.extname(file) == ".jpg")) {
 
       var formatted_name = file.replace(/ /g, '%20');
-      markdown_string +=   "\n![" + file + "](./develop/assets/images/"+ formatted_name +")\n";
+      markdown_string +=   "\n![" + file + "](./Develop/assets/images/"+ formatted_name +")\n";
     }
   });
 

@@ -29,7 +29,7 @@ npm install (package-name)
 
 Run the program from the "Develop" folder using "node index.js" and fill out the prompts to generate the README file one directory up.
 
-![s s_s.png](./develop/assets/images/s%20s_s.png)
+![s s_s.png](./Develop/assets/images/s%20s_s.png)
 
 ## Contributing
 
@@ -41,11 +41,11 @@ Tutorials: README guide: https://coding-boot-camp.github.io/full-stack/github/pr
 
 ## License
 
-#### Mozilla Public License 2.0
+#### GNU Affero General Public License v3.0
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-https://opensource.org/licenses/MPL-2.0
+https://www.gnu.org/licenses/agpl-3.0
 
 ## Tests
 
