@@ -41,11 +41,11 @@ Tutorials: README guide: https://coding-boot-camp.github.io/full-stack/github/pr
 
 ## License
 
-#### GNU Affero General Public License v3.0
+#### Mozilla Public License 2.0
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-https://www.gnu.org/licenses/agpl-3.0
+https://opensource.org/licenses/MPL-2.0
 
 ## Tests
 
