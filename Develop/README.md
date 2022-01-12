@@ -2,7 +2,7 @@
 
 ## Description
 
-<desc>
+desc
 
 ## Table of Contents
 
@@ -13,24 +13,24 @@
 
 ## Installation
 
-<steps>
+steps
 
 ## Usage
 
-<inst>
+inst
 
 ## Credits
 
-Collaborators: <col>
+Collaborators: col
 
-Third-Party Assets: <assets>
+Third-Party Assets: assets
 
-Tutorials: <tutorials>
+Tutorials: tutorials
 
 ## License
 
-# Licensed under: Mozilla Public License 2.0
+### GNU Lesser General Public License v3.0
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-https://opensource.org/licenses/MPL-2.0
+https://www.gnu.org/licenses/lgpl-3.0

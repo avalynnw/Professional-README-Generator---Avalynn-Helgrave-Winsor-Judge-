@@ -67,7 +67,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
 
   if (license != 'null') {
-    var liscense_section_test = `## License\n\n# Licensed under: `
+    var liscense_section_test = `## License\n\n### `
   }
 
   if (license == "GNU_AGPLv3") {
