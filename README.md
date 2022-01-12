@@ -21,7 +21,7 @@ Clone this project your personal computer using the command:
 
 Then, use: 
 
-	npm install (package-name)
+	npm install {package-name}
 
  to install inquirer, fs, and path in the "Develop" directory.
 

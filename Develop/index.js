@@ -54,7 +54,7 @@ const questions = [
         type: 'input',
         message: "Provide a step-by-step description of how to get the development environment running for the Installation section.\n",
         name: 'installation_steps',
-        default: 'Clone this project your personal computer using the command: \n\n\tgit clone git@github.com:avalynnw/README-Generator.git \n\nThen, use: \n\n\tnpm install (package-name)\n\n to install inquirer, fs, and path in the "Develop" directory.'
+        default: 'Clone this project your personal computer using the command: \n\n\tgit clone git@github.com:avalynnw/README-Generator.git \n\nThen, use: \n\n\tnpm install {package-name}\n\n to install inquirer, fs, and path in the "Develop" directory.'
     }
     ,
     {
