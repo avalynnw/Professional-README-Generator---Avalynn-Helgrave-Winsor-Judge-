@@ -123,7 +123,7 @@ function init() {
     const responses = inquirer.prompt(questions)
     .then((responses) => {
         const markdown = generateMarkdown(responses);
-        writeToFile("README.md", markdown);
+        writeToFile("./README.md", markdown);
     });
 }
 
