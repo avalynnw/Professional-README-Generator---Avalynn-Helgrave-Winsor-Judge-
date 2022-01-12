@@ -45,11 +45,11 @@ Tutorials: README guide: https://coding-boot-camp.github.io/full-stack/github/pr
 
 ## License
 
-#### Mozilla Public License 2.0
+#### The Unlicense
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
-https://opensource.org/licenses/MPL-2.0
+http://unlicense.org/
 
 ## Tests
 
@@ -59,4 +59,4 @@ No tests have been written for this application at this time.
 
 https://github.com/avalynnw
 
- Contact me at: avalynnjudge@gmail.com
+ Contact me at: avalynnhelgrave@gmail.com
