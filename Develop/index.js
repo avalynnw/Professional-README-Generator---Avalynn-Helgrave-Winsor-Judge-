@@ -54,14 +54,14 @@ const questions = [
         type: 'input',
         message: "Provide a step-by-step description of how to get the development environment running for the Installation section.\n",
         name: 'installation_steps',
-        default: 'Clone this project your personal computer using the command: \n\ngit clone git@github.com:avalynnw/README-Generator.git \n\nThen, use \n\nnpm install (package-name)\n\n to install inquirer, fs, and path in the root directory where the file was cloned to.".'
+        default: 'Clone this project your personal computer using the command: \n\ngit clone git@github.com:avalynnw/README-Generator.git \n\nThen, use: \n\nnpm install (package-name)\n\n to install inquirer, fs, and path in the root directory where the file was cloned to.'
     }
     ,
     {
         type: 'input',
         message: "Provide instructions and examples for use. To add a screenshot, add all images to the folder ./assets/images/ in .png or .jpg format and they will be added to the README file automatically. \n",
         name: 'usage_instructions',
-        default: 'Run the program using "node index.js" and fill out the prompts to generate the README file.'
+        default: 'Run the program from the "Develop" folder using "node index.js" and fill out the prompts to generate the README file one directory up.'
     }
     ,
     {

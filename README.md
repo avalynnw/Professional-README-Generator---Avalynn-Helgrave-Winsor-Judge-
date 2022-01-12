@@ -19,17 +19,17 @@ Clone this project your personal computer using the command:
 
 git clone git@github.com:avalynnw/README-Generator.git 
 
-Then, use 
+Then, use: 
 
 npm install (package-name)
 
- to install inquirer, fs, and path in the root directory where the file was cloned to.".
+ to install inquirer, fs, and path in the root directory where the file was cloned to.
 
 ## Usage
 
-Run the program using "node index.js" and fill out the prompts to generate the README file.
+Run the program from the "Develop" folder using "node index.js" and fill out the prompts to generate the README file one directory up.
 
-![s s_s.png](./assets/images/s%20s_s.png)
+![s s_s.png](./develop/assets/images/s%20s_s.png)
 
 ## Contributing
 
