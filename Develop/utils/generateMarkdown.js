@@ -71,28 +71,28 @@ function renderLicenseSection(license) {
   }
 
   if (license == "GNU_AGPLv3") {
-    liscense_section_test += "### GNU Affero General Public License v3.0"
+    liscense_section_test += "#### GNU Affero General Public License v3.0"
     return liscense_section_test;
   } else if (license == "GNU_GPLv3") {
-    liscense_section_test += "### GNU General Public License v3.0"
+    liscense_section_test += "#### GNU General Public License v3.0"
     return liscense_section_test;
   } else if (license == "GNU_LGPLv3") {
-    liscense_section_test += "### GNU Lesser General Public License v3.0"
+    liscense_section_test += "#### GNU Lesser General Public License v3.0"
     return liscense_section_test;
   } else if (license == "Mozilla_Public_License_2.0") {
-    liscense_section_test += "### Mozilla Public License 2.0"
+    liscense_section_test += "#### Mozilla Public License 2.0"
     return liscense_section_test;
   } else if (license == "Apache_License_2.0") {
-    liscense_section_test += "### Apache License 2.0"
+    liscense_section_test += "#### Apache License 2.0"
     return liscense_section_test;
   } else if (license == "MIT_License") {
-    liscense_section_test += "### MIT License"
+    liscense_section_test += "#### MIT License"
     return liscense_section_test;
   } else if (license == "Boost_Software_License_1.0") {
-    liscense_section_test += "### Boost Software License 1.0"
+    liscense_section_test += "#### Boost Software License 1.0"
     return liscense_section_test;
   } else if (license == "The_Unlicense") {
-    liscense_section_test += "### The Unlicense"
+    liscense_section_test += "#### The Unlicense"
     return liscense_section_test;
   }
   return "";

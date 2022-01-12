@@ -13,15 +13,15 @@ desc
 
 ## Installation
 
-ste
+step
 
 ## Usage
 
-i
+ins
 
 ## Credits
 
-Collaborators: c
+Collaborators: col
 
 Third-Party Assets: t
 
@@ -29,8 +29,8 @@ Tutorials: t
 
 ## License
 
-### GNU Affero General Public License v3.0
+#### MIT License
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-https://www.gnu.org/licenses/agpl-3.0
+https://opensource.org/licenses/MIT
