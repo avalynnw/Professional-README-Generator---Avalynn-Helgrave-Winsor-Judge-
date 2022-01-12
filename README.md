@@ -27,7 +27,7 @@ Then, use:
 
 ## Usage
 
-Run the program from the "Develop" folder using 
+Run the program from the "Develop" directory using 
 
 	node index.js
 

@@ -1,4 +1,4 @@
-const inquirer = require('inquirer');
+// Required packages
 const fs = require('fs');
 const path = require('path');
 
@@ -97,17 +97,7 @@ function renderLicenseSection(license) {
 }
 
 
-
-
-
-
-
-
-
-
 // Function to generate markdown for README
-
-
 function generateMarkdown(data) {
   
   // Add title
@@ -173,8 +163,6 @@ function generateMarkdown(data) {
   markdown_string += "\n\n## Tests"
   markdown_string += "\n\n" + data.test;
 
-
-
   // Add questions section
   markdown_string += "\n\n## Questions";
 
@@ -189,4 +177,5 @@ function generateMarkdown(data) {
 
 }
 
+// Export generateMarkdown
 module.exports = generateMarkdown;
