@@ -17,13 +17,13 @@ This program is desinged to quickly and easily generate quality README files for
 
 Clone this project your personal computer using the command: 
 
-git clone git@github.com:avalynnw/README-Generator.git 
+	git clone git@github.com:avalynnw/README-Generator.git 
 
 Then, use: 
 
-npm install (package-name)
+	npm install (package-name)
 
- to install inquirer, fs, and path in the root directory where the file was cloned to.
+ to install inquirer, fs, and path in the "Develop" directory.
 
 ## Usage
 
@@ -41,11 +41,11 @@ Tutorials: README guide: https://coding-boot-camp.github.io/full-stack/github/pr
 
 ## License
 
-#### Mozilla Public License 2.0
+#### The Unlicense
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
-https://opensource.org/licenses/MPL-2.0
+http://unlicense.org/
 
 ## Tests
 
