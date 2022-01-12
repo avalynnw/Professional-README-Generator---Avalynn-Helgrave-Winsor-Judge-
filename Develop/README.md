@@ -13,24 +13,24 @@ desc
 
 ## Installation
 
-steps
+ste
 
 ## Usage
 
-inst
+i
 
 ## Credits
 
-Collaborators: col
+Collaborators: c
 
-Third-Party Assets: assets
+Third-Party Assets: t
 
-Tutorials: tutorials
+Tutorials: t
 
 ## License
 
-### GNU Lesser General Public License v3.0
+### GNU Affero General Public License v3.0
 
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-https://www.gnu.org/licenses/lgpl-3.0
+https://www.gnu.org/licenses/agpl-3.0
