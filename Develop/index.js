@@ -6,7 +6,7 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [ 
     { 
         type: 'input',
@@ -39,7 +39,8 @@ const questions = [
     {
         type: 'input',
         message: "Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:\n- What was your motivation?\n- Why did you build this project?)\n- What problem does it solve?\n- What did you learn?\n",
-        name: 'description'
+        name: 'description',
+        default: 'This program is desinged to quickly and easily generate quality README files for github projects.'
     }
     ,
     {
@@ -52,7 +53,8 @@ const questions = [
     {
         type: 'input',
         message: "Provide a step-by-step description of how to get the development environment running for the Installation section.\n",
-        name: 'installation_steps'
+        name: 'installation_steps',
+        default: 'Use "npm install <package-name>" to install inquirer, fs, and path in the root directory. Then run the program with the command "node index.js".'
     }
     ,
     {

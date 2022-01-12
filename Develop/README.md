@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is designed to save time by easily generating quality readme files
+This program is desinged to quickly and easily generate quality README files for github projects.
 
 ## Table of Contents
 
@@ -13,24 +13,23 @@ This project is designed to save time by easily generating quality readme files
 
 ## Installation
 
-123
+Use "npm install <package-name>" to install inquirer, fs, and path in the root directory. Then run the program with the command "node index.js".
 
 ## Usage
 
-instructions!
 
 
-Third-Party Assets: Modules: inquirer, fs
 
 ## License
 
-#### MIT License
+#### GNU Affero General Public License v3.0
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-https://opensource.org/licenses/MIT
+https://www.gnu.org/licenses/agpl-3.0
 
-# Questions
+## Questions
 
 github.com/avalynnw
-Contact me: avalynnjudge@gmail.com
+
+ Contact me: avalynnjudge@gmail.com
