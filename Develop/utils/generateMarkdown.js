@@ -18,8 +18,11 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license != null) {
     if (license == "GNU_AGPLv3") {
-      console.log("yay");
       return "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)";
+    } else if (license == "GNU_GPLv3") {
+      return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+    } else if (license == "GNU_LGPLv3") {
+      return "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)";
     }
   } 
 
