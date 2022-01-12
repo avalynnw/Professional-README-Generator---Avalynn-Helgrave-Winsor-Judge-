@@ -165,6 +165,12 @@ function generateMarkdown(data) {
   markdown_string += "\n\n" + renderLicenseLink(data.license);
 
 
+  // Add tests section
+  markdown_string += "\n\n## Tests"
+  markdown_string += "\n\n" + data.test;
+
+
+
   // Add questions section
   markdown_string += "\n\n## Questions";
 

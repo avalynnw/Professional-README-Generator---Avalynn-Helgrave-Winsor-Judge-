@@ -54,14 +54,14 @@ const questions = [
         type: 'input',
         message: "Provide a step-by-step description of how to get the development environment running for the Installation section.\n",
         name: 'installation_steps',
-        default: 'Clone this project your personal computer using the command "git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY". Then, use "npm install (package-name)" to install inquirer, fs, and path in the root directory where the file was cloned to.".'
+        default: 'Clone this project your personal computer using the command "git clone git@github.com:avalynnw/README-Generator.git". Then, use "npm install (package-name)" to install inquirer, fs, and path in the root directory where the file was cloned to.".'
     }
     ,
     {
         type: 'input',
         message: "Provide instructions and examples for use. To add a screenshot, add all images to the folder ./assets/images/ in .png or .jpg format and they will be added to the README file automatically. \n",
         name: 'usage_instructions',
-        default: 'Run the program using "node index.js" and fill out the prompts.'
+        default: 'Run the program using "node index.js" and fill out the prompts to generate the README file.'
     }
     ,
     {
@@ -83,6 +83,13 @@ const questions = [
         message: "If you followed any tutorials, include links to those here:\n",
         name: 'tutorials',
         default: 'README guide: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide'
+    }
+    ,
+    {
+        type: 'input',
+        message: "List any tests for your application and describe how to run them.\n",
+        name: 'test',
+        default: 'No tests have been written for this application at this time.'
     }
     ,
     {
@@ -122,3 +129,5 @@ function init() {
 
 // Function call to initialize app
 init();
+
+
