@@ -29,7 +29,7 @@ npm install (package-name)
 
 Run the program using "node index.js" and fill out the prompts to generate the README file.
 
-![s-s_s.png](./assets/images/s-s_s.png)
+![s s_s.png](./assets/images/s%20s_s.png)
 
 ## Contributing
 
