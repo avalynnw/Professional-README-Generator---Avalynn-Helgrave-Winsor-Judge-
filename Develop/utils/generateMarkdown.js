@@ -173,6 +173,7 @@ function generateMarkdown(data) {
   markdown_string += "\n\n Contact me at: " + data.email;
 
   // Return completed markdown string
+  console.log("Your README file has been generated.")
   return markdown_string;
 
 }
