@@ -17,6 +17,13 @@ const questions = [
     ,
     { 
         type: 'input',
+        message: "What is your email address?\n",
+        name: 'email',
+        default: 'avalynnjudge@gmail.com',
+    }
+    ,
+    { 
+        type: 'input',
         message: "What is the name of the Project's GitHub repository?\n",
         name: 'repository_name',
         default: 'README-Generator'

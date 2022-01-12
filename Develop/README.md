@@ -2,7 +2,7 @@
 
 ## Description
 
-desc
+This project is designed to save time by easily generating quality readme files
 
 ## Table of Contents
 
@@ -13,19 +13,14 @@ desc
 
 ## Installation
 
-step
+123
 
 ## Usage
 
-ins
+instructions!
 
-## Credits
 
-Collaborators: col
-
-Third-Party Assets: t
-
-Tutorials: t
+Third-Party Assets: Modules: inquirer, fs
 
 ## License
 
@@ -34,3 +29,8 @@ Tutorials: t
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 https://opensource.org/licenses/MIT
+
+# Questions
+
+github.com/avalynnw
+Contact me: avalynnjudge@gmail.com

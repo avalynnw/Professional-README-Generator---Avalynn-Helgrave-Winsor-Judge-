@@ -1,7 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const moment = require('moment'); //require
-var year = moment().format('YYYY');
+
 
 const path = require('path');
 
@@ -65,11 +64,9 @@ function renderLicenseLink(license) {
 // Returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-
   if (license != 'null') {
     var liscense_section_test = `## License\n\n`
   }
-
   if (license == "GNU_AGPLv3") {
     liscense_section_test += "#### GNU Affero General Public License v3.0"
     return liscense_section_test;
@@ -167,6 +164,15 @@ function generateMarkdown(data) {
   // Add license link
   markdown_string += "\n\n" + renderLicenseLink(data.license);
 
+
+  // Add questions section
+  markdown_string += "\n\n# Questions";
+
+  // Add github username to README
+  markdown_string += "\n\ngithub.com/" + data.github_username;
+
+  // Add email address
+  markdown_string += "\nContact me: " + data.email;
   return markdown_string;
 
 }
