@@ -138,8 +138,8 @@ function generateMarkdown(data) {
   files.forEach (file => {
     if ((path.extname(file) == ".png") || (path.extname(file) == ".jpg")) {
 
-      var formatted_name = file.replace(/ /g, '_');
-      markdown_string +=   "\n![" + file + "](./assets/images/"+ formatted_name +")\n";
+      var formatted_name = file.replace(/ /g, '-');
+      markdown_string +=   "\n![" + formatted_name + "](./assets/images/"+ formatted_name +")\n";
     }
   });
 
