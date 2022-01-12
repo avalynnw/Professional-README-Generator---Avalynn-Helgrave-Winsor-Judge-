@@ -29,7 +29,7 @@ Then, use:
 
 Run the program from the "Develop" folder using "node index.js" and fill out the prompts to generate the README file one directory up.
 
-![s s_s.png](./Develop/assets/images/s%20s_s.png)
+![screenshot.png](./Develop/assets/images/screenshot.png)
 
 ## Contributing
 
