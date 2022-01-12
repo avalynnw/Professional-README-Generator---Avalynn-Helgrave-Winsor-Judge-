@@ -17,11 +17,11 @@
 
 ## Usage
 
-<instructions>
+<inst>
 
 ## Credits
 
-Collaborators: <collaborators>
+Collaborators: <col>
 
 Third-Party Assets: <assets>
 
@@ -29,8 +29,8 @@ Tutorials: <tutorials>
 
 ## License
 
-#Licensed under: Boost Software License 1.0
+# Licensed under: Mozilla Public License 2.0
 
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-https://www.boost.org/LICENSE_1_0.txt
+https://opensource.org/licenses/MPL-2.0
