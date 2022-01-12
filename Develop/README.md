@@ -8,8 +8,10 @@ This program is desinged to quickly and easily generate quality README files for
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Contributing](#contributing)
 - [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 
@@ -31,11 +33,11 @@ Tutorials: README guide: https://coding-boot-camp.github.io/full-stack/github/pr
 
 ## License
 
-#### The Unlicense
+#### MIT License
 
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-http://unlicense.org/
+https://opensource.org/licenses/MIT
 
 ## Tests
 

@@ -121,8 +121,10 @@ function generateMarkdown(data) {
     markdown_string += '\n\n## Table of Contents'
     markdown_string += `\n\n- [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)`
+- [Contributing](#contributing)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)`
   }
 
   // Add Installation Steps
