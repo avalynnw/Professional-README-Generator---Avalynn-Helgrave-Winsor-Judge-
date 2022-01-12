@@ -82,6 +82,8 @@ function generateMarkdown(data) {
   // Add title
   let markdown_string = `# ${data.title}`
 
+
+
   // Add description
   markdown_string += `\n\n## Description\n\n${data.description}`
 
@@ -123,8 +125,12 @@ function generateMarkdown(data) {
     markdown_string += `\n\nTutorials: ${data.tutorials}`
   }
 
+  // Add license selection
   markdown_string += "\n\n" + renderLicenseSection(data.license);
+
+  // Add license badge
   markdown_string += "\n\n" + renderLicenseLink(data.license);
+
 
   return markdown_string;
 
