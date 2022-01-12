@@ -13,7 +13,7 @@ This program is desinged to quickly and easily generate quality README files for
 
 ## Installation
 
-Use "npm install <package-name>" to install inquirer, fs, and path in the root directory. Then run the program with the command "node index.js".
+Use "npm install (package-name)" to install inquirer, fs, and path in the root directory. Then run the program with the command "node index.js".
 
 ## Usage
 

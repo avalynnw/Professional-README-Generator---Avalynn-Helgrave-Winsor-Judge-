@@ -54,7 +54,7 @@ const questions = [
         type: 'input',
         message: "Provide a step-by-step description of how to get the development environment running for the Installation section.\n",
         name: 'installation_steps',
-        default: 'Use "npm install <package-name>" to install inquirer, fs, and path in the root directory. Then run the program with the command "node index.js".'
+        default: 'Use "npm install (package-name)" to install inquirer, fs, and path in the root directory. Then run the program with the command "node index.js".'
     }
     ,
     {
